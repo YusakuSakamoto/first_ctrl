@@ -10,4 +10,8 @@ git pull
 git push  
 でプッシュして下さい。
 
-branchの試験を今からしてみます。
+git branch  
+は、今どんなブランチが存在するかを確認できます。
+
+git checkout  
+でブランチを移動して編集したい部分を編集
