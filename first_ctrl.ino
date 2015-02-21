@@ -1,3 +1,5 @@
+int x,y,z;
+
 void setup()
 {
   
@@ -11,7 +13,9 @@ void setup()
 
 void loop()
 {
-  
+  x = analogRead(0);
+  y = analogRead(1);
+  z = analogRead(2);
   Serial.println("aaa");
   delay(1000);
 }
